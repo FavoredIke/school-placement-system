@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Placement Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">EDU<span>PLACE</span></div>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#check">Check Placement</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Your Academic Journey Starts Here</h1>
+
+                <p>
+                    Welcome to the School Placement Portal.
+                    Check your school placement quickly and easily.
+                </p>
+
+                <a href="#check" class="btn">Check Placement</a>
+            </div>
+        </section>
+
+        <section class="placement" id="check">
+
+            <div class="form-container">
+
+                <h2>Check Your Placement</h2>
+
+                <p>Enter your examination details below.</p>
+
+                <form id="placementForm">
+
+                    <label for="indexNumber">Index Number</label>
+
+                    <input
+                        type="text"
+                        id="indexNumber"
+                        placeholder="Enter your index number"
+                        required
+                    >
+
+                    <label for="examYear">Examination Year</label>
+
+                    <select id="examYear" required>
+                        <option value="">Select year</option>
+                        <option value="2024">2024</option>
+                        <option value="2025">2025</option>
+                        <option value="2026">2026</option>
+                    </select>
+
+                    <button type="submit">Check Placement</button>
+
+                </form>
+
+                <div id="result"></div>
+
+            </div>
+
+        </section>
+
+        <section class="about" id="about">
+
+            <h2>About EDUPLACE</h2>
+
+            <p>
+                EDUPLACE is a demonstration school placement
+                platform designed to help students access
+                their placement information conveniently.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer id="contact">
+        <p>&copy; 2026 EDUPLACE. All Rights Reserved.</p>
+        <p>Designed for educational purposes.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
